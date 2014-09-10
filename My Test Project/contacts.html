@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<link rel="shortcut icon" href="images/swan_icon.ico">
+    <title>Contacts</title>
+    
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.css"/>
+    <!--<link type="text/css" rel="stylesheet" href="font-awesome/css/font-awesome.css"/>-->
+    <link type="text/css" rel="stylesheet" href="css/style.css"/>
+    <!--<link type="text/css" rel="stylesheet" href="font-awesome-4.1.0/css/font-awesome.min.css"/>-->
+    <!--<link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet"/>-->
+    
+</head>
+
+<body>
+    
+    <!-- Fixed Navigation Bar wth drop down Menu
+    ============================================-->
+    
+    <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand">Swan International Ltd.</a>
+            </div>
+            
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="products.html" class="dropdown-toggle" data-toggle="dropdown">Products<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Bootstrap Tutorials</a></li>
+                            <li><a href="#">PHP Tutorials</a></li>
+                            <li><a href="#">Javascript Tutorials</a></li>
+                            <li><a href="#">CSS Tutorials</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                    <li><a href="photoGallary.html">Photo Gallary</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    
+    <!--Form
+    ================================-->
+    
+    <div class="container" id="contactForm">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 id="middleHeader">Contact Form</h2> <hr/>
+                
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <label for="name" class="col-sm-2 control-label" id="labelFont">Name</label>
+                        <div class="col-sm-6">
+                            <input type="text" class="form-control" placeholder="Entre name...."/>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email" class="col-sm-2 control-label" id="labelFont">Email ID</label>
+                        <div class="col-sm-6">
+                            <input type="email" class="form-control" placeholder="someone@something.com"/>
+                        </div>
+                    </div> 
+                    
+                    <div class="form-group">
+                        <label for="password" class="col-sm-2 control-label" id="labelFont">Password</label>
+                        <div class="col-sm-6">
+                            <input type="password" class="form-control" placeholder="Entre password...."/>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message" class="col-sm-2 control-label" id="labelFont">Masseges</label>
+                        <div class="col-sm-6">
+                            <textarea class="form-control" rows="3" placeholder="Leave your messages..."></textarea>
+                        </div>
+                    </div>
+                    
+                    <!--Check Box------------->
+                    
+                    <div class="form-group">
+                        <label for="website" class="col-sm-2 control-label" id="labelFont">Favourite Websites</label>
+                        <div class="col-sm-6">
+                            <label class="checkbox-inline">
+                                <input type="checkbox" value="option1"/> YouTube
+                            </label>
+                            
+                            <label class="checkbox-inline">
+                                <input type="checkbox" value="option2"/> Google+
+                            </label>
+                            
+                            <label class="checkbox-inline">
+                                <input type="checkbox" value="option3"/> Twitter
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <!--Radio Button------------->
+                    
+                    <div class="form-group">
+                        <label for="gender" class="col-sm-2 control-label" id="labelFont">Gender</label>
+                        <div class="col-sm-6">
+                            <label class="radio-inline">
+                                <input type="radio" name="genderRadio" value="Male"/> Male
+                            </label>
+                            
+                            <label class="radio-inline">
+                                <input type="radio" name="genderRadio" value="Female"/> Female
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <!-- Drop Down Combo box---------------->
+                    
+                    <div class="form-group">
+                        <label for="city" class="col-sm-2 control-label">City</label>
+                        <div class="col-sm-6">
+                            <select class="form-control">
+                                <option>I have a problem on this box. bootstrap CSS is not working here</option>
+                                <option>Dhaka</option>
+                                <option>Comilla</option>
+                                <option>B.Baria</option>
+                                <option>Rajshahi</option>
+                                <option>Rongpur</option>
+                                <option>Barisal</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-6">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                            <button type="reset" class="btn btn-default">Cancel</button>
+                        </div>
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    
+    <!-- Footer and Modal
+    ===========================================-->
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <hr/>
+                
+                <p>Copyright &copy; Mainuddin Talukdar
+                    <a data-toggle="modal" href="#termsAndConditionsModal">
+                        Terms and Conditions
+                    </a>
+                </p>
+                
+                <!--Modal------>
+                
+                <div class="modal fade" id="termsAndConditionsModal" tabinex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h2>Terms and Conditions</h2>
+                            </div>
+                            <div class="modal-body">
+                                <p>The whole text will be here... The whole text will be here... The whole text will be here...
+                                The whole text will be here... The whole text will be here... The whole text will be here...
+                                The whole text will be here... The whole text will be here... The whole text will be here...
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>

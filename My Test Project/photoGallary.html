@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<link rel="shortcut icon" href="images/swan_icon.ico">
+    <title>Photo Gallary</title>
+    
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.css"/>
+    <link type="text/css" rel="stylesheet" href="font-awesome/css/font-awesome.css"/>
+    <link type="text/css" rel="stylesheet" href="css/style.css"/>
+    <!--<link type="text/css" rel="stylesheet" href="font-awesome-4.1.0/css/font-awesome.min.css"/>-->
+    <!--<link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet"/>-->
+    
+</head>
+
+<body>
+    
+    <!-- Fixed Navigation Bar wth drop down Menu
+    ============================================-->
+    
+    <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand">Swan International Ltd.</a>
+            </div>
+            
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="products.html" class="dropdown-toggle" data-toggle="dropdown">Products<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Bootstrap Tutorials</a></li>
+                            <li><a href="#">PHP Tutorials</a></li>
+                            <li><a href="#">Javascript Tutorials</a></li>
+                            <li><a href="#">CSS Tutorials</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                    <li><a href="photoGallary.html">Photo Gallary</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <!--Carousel
+    ================================-->
+    
+    <div id="myCarousel" class="carousel slide">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+        
+        <div class="carousel-inner">
+            <div class="item active">
+                
+                <img src="images/slide 1.jpg"/>
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Amar Sazal is Speaking!!!</h1>
+                        <p>Here, we can put our messages to the visitors of our site.</p>
+                        <!--Modal for Sign Up---------->
+                        
+                        <p><a class="btn btn-large btn-primary" data-toggle="modal" href="#signUpModal">Sign Up</a></p>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <div class="item">
+                
+                <img src="images/slide 2.jpg"/>
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Amar Sazal is Speaking!!!</h1>
+                        <p>Here, we can put our messages to the visitors of our site.</p>
+                        
+                        <!--Modal for Sign Up---------->
+                        
+                        <p><a class="btn btn-large btn-primary" data-toggle="modal" href="#signUpModal">Sign Up</a></p>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <div class="item">
+                
+                <img src="images/slide 3.jpg"/>
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Amar Sazal is Speaking!!!</h1>
+                        <p>Here, we can put our messages to the visitors of our site.</p>
+                        <!--Modal for Sign Up---------->
+                        
+                        <p><a class="btn btn-large btn-primary" data-toggle="modal" href="#signUpModal">Sign Up</a></p>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <div class="item">
+                
+                <img src="images/slide 4.jpg"/>
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Amar Sazal is Speaking!!!</h1>
+                        <p>Here, we can put our messages to the visitors of our site.</p>
+                        <!--Modal for Sign Up---------->
+                        
+                        <p><a class="btn btn-large btn-primary" data-toggle="modal" href="#signUpModal">Sign Up</a></p>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </div>
+        
+        <div class="modal fade" id="signUpModal" tabinex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h2>Sign Up</h2>
+                            </div>
+                            <div class="modal-body">
+                                <p>HTML form code will be here</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+        
+    </div>
+    
+    
+    <!--Grid System
+    =================================-->
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h2>First Heading</h2>
+                <p>This heading contains few text on here.
+                This heading contains few text on here.
+                This heading contains few text on here.
+                This heading contains few text on here.
+                </p>
+            </div>
+            
+            <div class="col-md-4">
+                <h2>First Heading</h2>
+                <p>This heading contains few text on here.
+                This heading contains few text on here.
+                This heading contains few text on here.
+                This heading contains few text on here.
+                </p>
+            </div>
+            
+            <div class="col-md-4">
+                <h2>First Heading</h2>
+                <p>This heading contains few text on here.
+                This heading contains few text on here.
+                This heading contains few text on here.
+                This heading contains few text on here.
+                </p>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-6">
+                <h2>First Heading</h2>
+                <p>This heading contains few text on here.
+                This heading contains few text on here.
+                This heading contains few text on here.
+                This heading contains few text on here.
+                </p>
+            </div>
+            
+            <div class="col-md-6">
+                <h2>First Heading</h2>
+                <p>This heading contains few text on here.
+                This heading contains few text on here.
+                This heading contains few text on here.
+                This heading contains few text on here.
+                </p>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-12">
+                <h2>First Heading</h2>
+                <p>This heading contains few text on here.
+                This heading contains few text on here.
+                This heading contains few text on here.
+                This heading contains few text on here.
+                </p>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="col-md-12">
+            
+        </div>
+    </div>
+    
+    
+    
+    
+    <!--Font Awesome Icons
+    ===========================================-->
+    
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="well">
+                    
+                    <a href="#"><i class="largeIcon icon-linkedin"></i></a>
+                    <a href="#"><i class="largeIcon icon-android"></i></a>
+                    <a href="#"><i class="largeIcon icon-twitter"></i></a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <!-- Footer and Modal
+    ===========================================-->
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <hr/>
+                
+                <p>Copyright &copy; Mainuddin Talukdar
+                    <a data-toggle="modal" href="#termsAndConditionsModal">
+                        Terms and Conditions
+                    </a>
+                </p>
+                
+                <!--Modal------>
+                
+                <div class="modal fade" id="termsAndConditionsModal" tabinex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h2>Terms and Conditions</h2>
+                            </div>
+                            <div class="modal-body">
+                                <p>The whole text will be here... The whole text will be here... The whole text will be here...
+                                The whole text will be here... The whole text will be here... The whole text will be here...
+                                The whole text will be here... The whole text will be here... The whole text will be here...
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>

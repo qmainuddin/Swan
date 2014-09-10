@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<link rel="shortcut icon" href="images/swan_icon.ico">
+    <title>Products</title>
+    
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.css"/>
+    <link type="text/css" rel="stylesheet" href="font-awesome/css/font-awesome.css"/>
+    <link type="text/css" rel="stylesheet" href="css/style.css"/>
+    <!--<link type="text/css" rel="stylesheet" href="font-awesome-4.1.0/css/font-awesome.min.css"/>-->
+    <!--<link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet"/>-->
+    
+</head>
+
+<body>
+    
+    <!-- Fixed Navigation Bar wth drop down Menu
+    ============================================-->
+    
+    <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand">Swan International Ltd.</a>
+            </div>
+            
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="products.html" class="dropdown-toggle" data-toggle="dropdown">Products<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Bootstrap Tutorials</a></li>
+                            <li><a href="#">PHP Tutorials</a></li>
+                            <li><a href="#">Javascript Tutorials</a></li>
+                            <li><a href="#">CSS Tutorials</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                    <li><a href="photoGallary.html">Photo Gallary</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    
+    <!-- Accordion
+    ============================================-->
+    
+    <div class="container" id="contactForm">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 id="middleHeader">Accordion</h2> <hr/>
+                
+                <div class="panel-group" id="accordion">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#section1">
+                                    Question 1
+                                </a>
+                            </h4>
+                        </div>
+                        
+                        <div class="panel-collapse collapse" id="section1">
+                            <div class="panel-body">
+                                <img class="img-rounded" src="images/photo-2.JPG"/>
+                                <img class="img-rounded" src="images/photo-2.JPG"/>
+                                <img class="img-rounded" src="images/photo-2.JPG"/>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="panel panel-success">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#section2">
+                                    Question 2
+                                </a>
+                            </h4>
+                        </div>
+                        
+                        <div class="panel-collapse collapse" id="section2">
+                            <div class="panel-body">
+                                <img class="img-rounded" src="images/photo-2.JPG"/>
+                                <img class="img-rounded" src="images/photo-2.JPG"/>
+                                <img class="img-rounded" src="images/photo-2.JPG"/>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="panel panel-danger">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#section3">
+                                    Question 3
+                                </a>
+                            </h4>
+                        </div>
+                        
+                        <div class="panel-collapse collapse" id="section3">
+                            <div class="panel-body">
+                                <img class="img-rounded" src="images/photo-2.JPG"/>
+                                <img class="img-rounded" src="images/photo-2.JPG"/>
+                                <img class="img-rounded" src="images/photo-2.JPG"/>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--Horizontal Tabs----
+    ===============================================-->
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 id="middleHeader">Horizontal Tab</h2>
+                
+                <!-- Tabs Navigation-->
+                
+                <ul class="nav nav-tabs">
+                    <li class="active"><a href="#tab1" data-toggle="tab">Section 1</a></li>
+                    <li><a href="#tab2" data-toggle="tab">Section 2</a></li>
+                    <li><a href="#tab3" data-toggle="tab">Section 3</a></li>
+                </ul>
+                
+                <div class="tab-content">
+                    <div class="tab-pane active" id="tab1">
+                        This is our 1st tab...This is our 1st tab...
+                        This is our 1st tab...This is our 1st tab...
+                        This is our 1st tab...This is our 1st tab...
+                        This is our 1st tab...This is our 1st tab...
+                        This is our 1st tab...This is our 1st tab...
+                        This is our 1st tab...This is our 1st tab...
+                    </div>
+                    <div class="tab-pane" id="tab2">
+                        This is our 2nd tab...This is our 2nd tab...
+                        This is our 2nd tab...This is our 2nd tab...
+                        This is our 2nd tab...This is our 2nd tab...
+                        This is our 2nd tab...This is our 2nd tab...
+                        This is our 2nd tab...This is our 2nd tab...
+                        This is our 2nd tab...This is our 2nd tab...
+                    </div>
+                    
+                    <div class="tab-pane" id="tab3">
+                        <img class="img-rounded" src="images/photo-2.JPG"/>
+                        <img class="img-rounded" src="images/photo-2.JPG"/>
+                        <img class="img-rounded" src="images/photo-2.JPG"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+     <!--Button with Icon
+    =========================================-->
+    
+    <div class="container" id="contactForm">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="well">
+                    <button class="btn btn-danger"><i class="icon-trash icon-white"></i>Delete</button>
+                    <button class="btn btn-large"><i class="icon-comment icon-black"></i>Leave comments</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--Tooltips and Popover
+    ==========================================-->
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Tooltips</h2> <hr/>
+                
+                <a class="btn btn-primary" href="#" data-toggle="tooltip" id="toolTipButton" title="A normal tooltip text" data-placement="right">
+                    Tooltip
+                </a>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Popover</h2> <hr/>
+                
+                <button class="btn btn-danger" data-toggle="popover" id="popOverButton" title="PopOver Header" data-content="A sample Pop Over content is here">
+                    Popover
+                </button>
+            </div>
+        </div>
+        
+    </div>
+    
+    <!-- Footer and Modal
+    ===========================================-->
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <hr/>
+                
+                <p>Copyright &copy; Mainuddin Talukdar
+                    <a data-toggle="modal" href="#termsAndConditionsModal">
+                        Terms and Conditions
+                    </a>
+                </p>
+                
+                <!--Modal------>
+                
+                <div class="modal fade" id="termsAndConditionsModal" tabinex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h2>Terms and Conditions</h2>
+                            </div>
+                            <div class="modal-body">
+                                <p>The whole text will be here... The whole text will be here... The whole text will be here...
+                                The whole text will be here... The whole text will be here... The whole text will be here...
+                                The whole text will be here... The whole text will be here... The whole text will be here...
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script type="text/javascript">
+        $('document').ready(function(){
+            $('#toolTipButton').tooltip();
+            $('#popOverButton').popover();
+        });
+    </script>
+</body>
+</html>
