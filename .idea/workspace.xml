@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fef4fb3-11d7-410a-86b6-2c44d529130f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/My Test Project/presa.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/My Test Project/index.html" afterPath="$PROJECT_DIR$/My Test Project/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/My Test Project/maxxis.html" afterPath="$PROJECT_DIR$/My Test Project/maxxis.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/My Test Project/presa.html" afterPath="$PROJECT_DIR$/My Test Project/presa.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="New folder.iws" />
@@ -31,16 +31,16 @@
       <file leaf-file-name="maxxis.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/My Test Project/maxxis.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="378" column="74" selection-start="17384" selection-end="17384" vertical-scroll-proportion="-51.0" vertical-offset="5100" max-vertical-offset="8772">
+            <state line="378" column="61" selection-start="17382" selection-end="17382" vertical-scroll-proportion="0.0" vertical-offset="6176" max-vertical-offset="8772">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="presa.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="presa.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/My Test Project/presa.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="153" column="131" selection-start="6730" selection-end="6730" vertical-scroll-proportion="-9.323636" vertical-offset="7729" max-vertical-offset="8279">
+            <state line="342" column="110" selection-start="16316" selection-end="16316" vertical-scroll-proportion="-19.692308" vertical-offset="5302" max-vertical-offset="8772">
               <folding>
                 <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -49,10 +49,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/My Test Project/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="163" column="35" selection-start="6160" selection-end="6160" vertical-scroll-proportion="0.0" vertical-offset="2771" max-vertical-offset="6001">
+            <state line="149" column="77" selection-start="5013" selection-end="5013" vertical-scroll-proportion="0.5182482" vertical-offset="2249" max-vertical-offset="6001">
               <folding />
             </state>
           </provider>
@@ -71,9 +71,9 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/My Test Project/index.html" />
         <option value="$PROJECT_DIR$/My Test Project/maxxis.html" />
         <option value="$PROJECT_DIR$/My Test Project/presa.html" />
+        <option value="$PROJECT_DIR$/My Test Project/index.html" />
       </list>
     </option>
   </component>
@@ -81,7 +81,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1376" />
+    <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -110,7 +110,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -125,7 +124,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="New folder" />
+              <option name="myItemId" value="GitNew" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -135,7 +134,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="New folder" />
+              <option name="myItemId" value="GitNew" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -145,6 +144,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -196,15 +196,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928678" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.146434" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19335347" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -236,6 +236,54 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/My Test Project/maxxis.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="378" column="61" selection-start="17382" selection-end="17382" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8772">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/My Test Project/presa.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="342" column="110" selection-start="16316" selection-end="16316" vertical-scroll-proportion="0.0" vertical-offset="5302" max-vertical-offset="8772">
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/My Test Project/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="149" column="99" selection-start="5035" selection-end="5035" vertical-scroll-proportion="0.0" vertical-offset="2249" max-vertical-offset="6001">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/My Test Project/maxxis.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="378" column="74" selection-start="17384" selection-end="17384" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8772">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/My Test Project/presa.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="153" column="131" selection-start="6730" selection-end="6730" vertical-scroll-proportion="0.0" vertical-offset="2601" max-vertical-offset="8279">
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/My Test Project/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="163" column="35" selection-start="6160" selection-end="6160" vertical-scroll-proportion="0.0" vertical-offset="2771" max-vertical-offset="6001">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/My Test Project/maxxis.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="8" selection-start="586" selection-end="586" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8772">
@@ -295,39 +343,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/My Test Project/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="145" column="14" selection-start="1911" selection-end="1913" vertical-scroll-proportion="-7.3461537" vertical-offset="2274" max-vertical-offset="105553">
-          <folding />
-        </state>
+        <state line="145" column="14" selection-start="1911" selection-end="1913" vertical-scroll-proportion="-7.3461537" vertical-offset="2274" max-vertical-offset="105553" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/My Test Project/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="40" selection-start="710" selection-end="710" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/My Test Project/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="163" column="35" selection-start="6160" selection-end="6160" vertical-scroll-proportion="0.0" vertical-offset="2771" max-vertical-offset="6001">
-          <folding />
-        </state>
+        <state line="24" column="40" selection-start="710" selection-end="710" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/My Test Project/maxxis.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="378" column="74" selection-start="17384" selection-end="17384" vertical-scroll-proportion="-51.0" vertical-offset="5100" max-vertical-offset="8772">
+        <state line="378" column="61" selection-start="17382" selection-end="17382" vertical-scroll-proportion="0.0" vertical-offset="6176" max-vertical-offset="8772">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/My Test Project/presa.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="153" column="131" selection-start="6730" selection-end="6730" vertical-scroll-proportion="-9.323636" vertical-offset="7729" max-vertical-offset="8279">
+        <state line="342" column="110" selection-start="16316" selection-end="16316" vertical-scroll-proportion="-19.692308" vertical-offset="5302" max-vertical-offset="8772">
           <folding>
             <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/My Test Project/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="149" column="77" selection-start="5013" selection-end="5013" vertical-scroll-proportion="0.5182482" vertical-offset="2249" max-vertical-offset="6001">
+          <folding />
         </state>
       </provider>
     </entry>
