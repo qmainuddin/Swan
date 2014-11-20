@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/aero_blue"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/iAmATextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/i_am_a"
+        android:textColor="@color/black" 
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+	<Spinner
+            android:id="@+id/iAmASpinner"
+            android:layout_width="90dp"
+            android:layout_height="40dp"            
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="20dp"
+            />
+        
+    <TextView
+        android:id="@+id/seekinfTextVeiw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="80dp"
+        android:text="@string/seeking_a"
+        android:textColor="@color/black" 
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+        
+    <Spinner
+            android:id="@+id/seekingSpinner"
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="70dp"
+            />
+    
+    <TextView
+        android:id="@+id/whoIsFromTextVeiw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="125dp"
+        android:text="@string/who_is_from"
+        android:textColor="@color/black"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <Spinner
+            android:id="@+id/whoIsFromSpinner"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="115dp"
+            />
+        
+    <TextView
+        android:id="@+id/toTextVeiw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="125dp"
+        android:text="@string/to" 
+        android:textColor="@color/black"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <Spinner
+            android:id="@+id/toSpinner"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="115dp"
+            />
+    
+    <TextView
+        android:id="@+id/educationalStatusTextVeiw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="170dp"
+        android:text="@string/educatinal_status" 
+        android:textColor="@color/black"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <Spinner
+            android:id="@+id/educationalStatusSpinner"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="160dp" />
+    
+    <TextView
+        android:id="@+id/religionTextVeiw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="220dp"
+        android:text="@string/religion" 
+        android:textColor="@color/black"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+     <Spinner
+            android:id="@+id/religionSpinner"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="210dp" />
+     
+     <TextView
+        android:id="@+id/maritalStatusTextVeiw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="270dp"
+        android:text="@string/marital_status" 
+        android:textColor="@color/black"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+     
+     <Spinner
+            android:id="@+id/maritalStatusSpinner"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="260dp" />
+     
+     <TextView
+        android:id="@+id/childrenTextVeiw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="270dp"
+        android:text="@string/children" 
+        android:textColor="@color/black"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+     
+     <Spinner
+            android:id="@+id/childrenSpinner"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="260dp" />
+     
+      <TextView
+        android:id="@+id/countryTextVeiw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="330dp"
+        android:text="@string/country" 
+        android:textColor="@color/black"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+      
+      <Spinner
+            android:id="@+id/countrySpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="320dp" />
+      
+       <TextView
+        android:id="@+id/placeTextVeiw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="380dp"
+        android:text="@string/place" 
+        android:textColor="@color/black"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+       
+       <EditText
+        android:id="@+id/placeEditText"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="370dp"
+        android:hint="@string/mirpur" />
+       
+	 <TextView
+        android:id="@+id/districtTextVeiw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="380dp"
+        android:text="@string/district" 
+        android:textColor="@color/black"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+		 
+		  <Spinner
+            android:id="@+id/districtSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="370dp" />
+		  
+	 <TextView
+        android:id="@+id/nameTextVeiw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="420dp"
+        android:text="@string/name" 
+        android:textColor="@color/black"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+	 
+	 <EditText
+        android:id="@+id/nameEditText"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="410dp"
+        android:hint="@string/kajol" />
+	 
+	 <Button
+	     android:id="@+id/searchButton"
+	     android:layout_width="80dp"
+	     android:layout_height="40dp"
+	     android:layout_alignParentLeft="true"
+	     android:layout_alignParentTop="true"
+	     android:layout_marginLeft="200dp"
+	     android:layout_marginTop="410dp"
+	     android:background="@drawable/searchbutton" />
+
+</RelativeLayout>

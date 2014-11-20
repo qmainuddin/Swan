@@ -1,0 +1,18 @@
+{
+	"name": "SWAN INTERNATIONAL",
+	"version": "1.0",
+	"description": "Testing app for Firefox OS",
+	"launch_path": "/index.html",
+	"permission": {
+		"storage": {
+		}
+	},
+	"icons": {
+		"128": "/icons/icon-128.png"
+	},
+	"developer": {
+		"name": "Kazi Srabon",
+		"url": "bit0424@iit.du.ac.bd"
+	},
+	"default_locale": "en"
+}

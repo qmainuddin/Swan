@@ -1,0 +1,150 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PartnersProfileActivity" >
+    
+    <TextView
+        android:id="@+id/textTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/text"
+        android:textColor="@color/black" 
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+    
+    
+    <Spinner
+            android:id="@id/sexSpinner"
+            android:layout_width="100dp"
+            android:layout_height="40dp"            
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="50dp" />
+    
+    <Spinner
+            android:id="@id/religionSpinner"
+            android:layout_width="150dp"
+            android:layout_height="40dp"            
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="50dp" />
+    
+    <Spinner
+            android:id="@+id/qualificationSpinner"
+            android:layout_width="100dp"
+            android:layout_height="40dp"            
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="110dp" />
+    
+    <EditText
+	      android:id="@id/heightEditText"
+	      android:layout_width="100dp"
+	      android:layout_height="40dp"
+	      android:layout_alignParentLeft="true"
+	      android:layout_alignParentTop="true"
+	      android:layout_marginLeft="25dp"
+	      android:layout_marginTop="160dp"
+	      android:hint="@string/height"
+	      android:inputType="number|numberDecimal" />
+    
+    <EditText
+	      android:id="@id/weightEditText"
+	      android:layout_width="100dp"
+	      android:layout_height="40dp"
+	      android:layout_alignParentLeft="true"
+	      android:layout_alignParentTop="true"
+	      android:layout_marginLeft="150dp"
+	      android:layout_marginTop="160dp"
+	      android:hint="@string/weight"
+	      android:inputType="number|numberDecimal" />
+    
+    <TextView
+        android:id="@id/addressTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="230dp"
+        android:text="@string/address"
+        android:textColor="@color/black" 
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+    
+    <Spinner
+            android:id="@id/placeSpinner"
+            android:layout_width="130dp"
+            android:layout_height="40dp"            
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/place"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="270dp" />
+	  
+	  	  <Spinner
+            android:id="@+id/zillaSpinner"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"            
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="270dp" />
+	  	  
+	  	  <TextView
+        android:id="@+id/text1TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="350dp"
+        android:text="@string/text1"
+        android:textColor="@color/black" 
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+	  	  
+	  	  
+	  	  <EditText
+	      android:id="@+id/charecterEditText"
+	      android:layout_width="1000dp"
+	      android:layout_height="40dp"
+	      android:layout_alignParentLeft="true"
+	      android:layout_alignParentTop="true"
+	      android:layout_marginLeft="25dp"
+	      android:layout_marginTop="380dp"
+	      
+	      android:inputType="textMultiLine" />
+	  	  
+	  	   <Button
+        android:id="@+id/backButton"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="420dp"
+        android:text="@string/back"
+        android:textColor="@color/royalblue2"        
+        android:background="@color/aqua" 
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+	  	   
+	  	   <Button
+        android:id="@+id/submitButton"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="420dp"
+        android:text="@string/submit"
+        android:textColor="@color/white"
+        android:background="@color/sapgreen" 
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kazi"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.Light" >
+        <activity
+            android:name="com.example.kazi.StartUpActivity"
+            android:label="@string/title_activity_start_up" >
+            <intent-filter>
+                <action android:name="com.example.kazi.StartUpActivity" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.kazi.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.kazi.MainActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.kazi.MyProfileActivity"
+            android:label="@string/title_activity_my_profile" >
+            <intent-filter>
+                <action android:name="com.example.kazi.MyProfileActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.kazi.PartnersProfileActivity"
+            android:label="@string/title_activity_partners_profile" >
+            <intent-filter>
+                <action android:name="com.example.kazi.PartnersProfileActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.kazi.MyMatchesActivity"
+            android:label="@string/title_activity_my_matches" >
+            <intent-filter>
+                <action android:name="com.example.kazi.MyMatchesActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.kazi.TermsConditionActivity"
+            android:label="@string/title_activity_terms_condition" >
+            <intent-filter>
+                <action android:name="com.example.kazi.TermsConditionActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.kazi.AboutUsActivity"
+            android:label="@string/title_activity_about_us" >
+            <intent-filter>
+                <action android:name="com.example.kazi.AboutUsActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.kazi.SearchActivity"
+            android:label="@string/title_activity_search" >
+            <intent-filter>
+                <action android:name="com.example.kazi.SearchActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
